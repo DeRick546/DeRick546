@@ -1,9 +1,10 @@
 /*vraag docent fix index foto border*/
 .frontpicture{
-    border-width: 5px;
+    border-width: 3px;
     border-style: solid;
     border-color: #3385ff;
 }
 .elden{
+    border-width: 5px;
     border-style: double;
 }
