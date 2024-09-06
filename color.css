@@ -3,6 +3,8 @@
     border-width: 3px;
     border-style: solid;
     border-color: #3385ff;
+    position: absolute;
+    left: 0;
 }
 .elden{
     border-width: 5px;
@@ -10,4 +12,11 @@
 }
 .centerum{
     text-align: center;
+}
+.fronpicture{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #3385ff;
+    position: absolute;
+    right: 0;
 }
