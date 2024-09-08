@@ -1,10 +1,8 @@
 /*css_stylesheet*/
 .frontpicture{
-    border-width: 3px;
-    border-style: solid;
-    border-color: #3385ff;
     position: absolute;
     left: 0;
+    top: 0;
 }
 .elden{
     border-width: 5px;
@@ -19,4 +17,48 @@
     border-color: #3385ff;
     position: absolute;
     right: 0;
+    top: 1;
 }
+.on{
+    background-color:#b3b3ff;
+
+}
+.hz_logo{
+    width: 130px;
+  height: auto;
+  max-width: 100%; 
+  height: auto; 
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  margin: 5px; 
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ccccff;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  .nav_word {
+    float: left;
+  }
+  
+  .nav_word a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav_word a:hover:not(.active) {
+    background-color: #9999ff;
+  }
+  
+  
