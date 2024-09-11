@@ -1,35 +1,134 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <title>Dashboard</title>
-	<link rel="stylesheet" type="text/css" href="color.css">
-    <link rel="icon" href="loot/sword.png" type="image/x-icon">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  </head>
-  <!--comment out-->
+
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" type="text/css" href="color.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="loot/sword.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<!--comment out-->
+
 <body>
+  <nav>
+    <ul class="nav">
+      <li class="nav_word"><a href="index.html">Home</a></li>
+      <li class="nav_word"><a href="profiel.html">Profiel</a></li>
+      <li class="nav_word">
+          <!--<div class="dropdown">-->
+            <a href="dashboard.html" class="on">Dashboard<!--<i class="fa fa-caret-down"></i>--></a>
+            <!--<div class="dropdown-content">
+              <a class="on">Link 1</a>
+              <a class="on">Link 2</a>
+            </div>
+          </div>-->
+      </li>
+      <li class="nav_word"><a href="blog.html">Blog</a></li>
+      <li class="nav_word"><a href="FAQ.html">FAQ</a></li>
+      <img src="loot/hz_logo.png" alt="hz_logo " class="hz_logo">
+    </ul>
+  </nav>
   <div class="jumbotron text-center">
     <h1>Dashboard</h1>
-    <nav>
-      <ul class="nav">
-        <li class="nav_word"><a href="index.html"  >Home</a></li>
-        <li class="nav_word"><a href="profiel.html">Profiel</a></li>
-        <li class="nav_word"><a href="dashboard.html" class="on">Dashboard</a></li>
-        <li class="nav_word"><a href="blog.html">Blog</a></li>
-        <li class="nav_word"><a href="FAQ.html">FAQ</a></li>
-        <img src="loot/hz_logo.png" alt="hz_logo "  class="hz_logo" >
-      </ul>
-    </nav>
   </div>
-<div>
-  <h1 class="text-center">Work in progress.</h1>
-  <p class="text-center">To be continued?</p>
-</div>
+  <table>
+    <tr>
+      <th class="text-center">Blok</th>
+      <th class="text-center">Lessen </th>
+      <th class="text-center">Tentamens </th>
+      <th class="text-center">Studie-punten</th>
+      <th class="text-center">Cijfers </th>
+    </tr>
+    <tr>
+      <th class="text-center"> 1 </th>
+      <th>
+        <li> PCO </li>
+        <li> PBA </li>
+        <li> CSB </li>
+      </th>
+      <th>
+        <li> PCO: Presentation </li>
+        <li> PBA: Written exam</li>
+        <li> CSB: </li>
+      </th>
+      <th>
+        <li> 2,5 EC</li>
+        <li> 5,0 EC </li>
+        <li> 5,0 EC </li>
+
+
+      </th>
+      <th> </th>
+    </tr>
+    <tr>
+      <th class="text-center"> 2 </th>
+      <th>
+        <li> PPD-E </li>
+        <li> OOP </li>
+      </th>
+      <th>
+        <li> PPD-E: </li>
+        <li> OOP: Presentation </li>
+
+      </th>
+      <th>
+        <li> 12,5 EC </li>
+        <li> 10,0 EC </li>
+
+      </th>
+      <th> </th>
+    </tr>
+    <tr>
+      <th class="text-center"> 3 </th>
+      <th>
+        <li> Framework Project 1</li>
+        <li> Business IT Consultancy Basics </li>
+      </th>
+      <th> Presentation (group) </th>
+      <th>
+        <li> 10 EC</li>
+
+
+      </th>
+      <th> </th>
+    </tr>
+    <tr>
+      <th class="text-center"> 4 </th>
+      <th>
+        <li> Framework Project 2 </li>
+        <li> Business IT Consultancy Basics </li>
+      </th>
+      <th> Portfolio </th>
+      <th>
+        <li> 10 EC</li>
+        <li> 2,5 EC</li>
+      </th>
+      <th> </th>
+    </tr>
+    <tr>
+      <th class="text-center"> 1-4 </th>
+      <th>
+        <li> Tijdens de Semesters </li>
+
+      </th>
+      <th> Hz personality </th>
+      <th>
+        <li> 2,5 EC</li>
+      </th>
+      <th> </th>
+    </tr>
+  </table>
+
 </body>
+<footer class="foot">
+  <a href="https://github.com/DeRick546/DeRick546" target="blank">Mijn github account</a><br>
+  <a href="https://derick546.github.io/DeRick546/profiel.html" target="_blank">Mijn github online</a>
+</footer>
 </html>
