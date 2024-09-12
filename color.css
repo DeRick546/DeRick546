@@ -19,10 +19,23 @@
 }
 .foot{
   text-align: center;
-  bottom: 0;
+  bottom: 0px;
 }
 .on{
     background-color:#b3b3ff;
+}
+.blokje{
+    border: 2px solid darkblue;
+    margin: 0 auto;
+    width: 100%;
+}
+.vraag{
+  height: 72Px;
+  width: auto;
+  
+}
+#blog .row div{
+  padding: 0;
 }
 .hz_logo{
     width: 130px;
@@ -67,11 +80,25 @@
   }
   
   td, th {
-    border: 1px solid #dddddd;
+    border: 3px solid #0000009d;
     text-align: left;
     padding: 8px;
   }
-  
+  .NBSA{
+    text-align: center;
+    border: 2px solid rgba(255, 15, 15, 0.747);
+    border-left: 3px solid rgba(255, 15, 15, 0.747);
+    border-right: 3px solid rgba(255, 15, 15, 0.747);
+    margin: 0 auto;
+    width: fit-content;
+
+  }
+  details{
+    cursor: pointer;
+  }
+  .fa-caret-down{
+    margin-left: 4px;
+  }
   /*new code
   ul li div .dropdown:hover:not(.active) {
     float: left;
@@ -100,3 +127,5 @@
     display: block;
     position: relative;
   }*/
+
+  
