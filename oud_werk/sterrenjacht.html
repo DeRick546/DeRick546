@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Lodewijk College Sterrenjacht</title>
+ <link rel="stylesheet" href="SterrenjachtLodewijk.css">
+ <style>
+	
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    line-height: 1.6;
+    background-color: #fff;
+    color: black;
+    min-height: 100vh;
+}
+
+.HeaderMain {
+    background-color: #fff;
+    color: #008ead;
+    padding: 20px 0;
+    text-align: center;
+    -webkit-box-shadow:0 59px 65px -70px rgba(0,0,0,.69);
+    -moz-box-shadow: 0 59px 65px -70px rgba(0,0,0,.69);
+    box-shadow: 0 59px 65px -70px rgba(0,0,0,.69)
+}
+
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-and-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.Logo-Header {
+    margin-right: 20px;
+}
+
+.header-links .navlist {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    font-size: large;
+}
+
+.header-links .navlist li {
+    margin-bottom: 10px;
+}
+
+.header-links .navlist a {
+    text-decoration: none;
+    color: #008ead;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.container {
+text-align: center;
+}
+
+.BasisTekstBlokA {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #008ead;
+    position: relative;
+    text-align: left;
+    text-shadow: none;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    margin: 50px;
+    max-width: 600px;
+    height: 220px;
+    box-sizing: border-box;
+}
+
+.BasisTekstBlokA h3 {
+    color: #f8b137;
+}
+
+.navlist {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    font-family: Lato,sans-serif;
+    font-weight: 300;
+    color: #1a171b;
+    font-size: 16px
+}
+
+
+.navlist li {
+    margin-right: 15px; 
+}
+
+.navlist a {
+    text-decoration: none;
+    color: #008ead;
+    transition: color 0.3s ease;
+}
+
+.navlist a:hover {
+    color: #f8b137;
+}
+
+.backtothefuture {
+    text-decoration: solid;
+    border: 10px solid red;
+}
+
+footer {
+    background-color: #008ead;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    box-sizing: border-box;
+    border-top: 20px solid #065a6d;
+    height: 500px;
+    
+}
+.footer {
+    position: fixed;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.footertextblock {
+    display: flex;
+    justify-content: center;
+}
+
+.textblock-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.textblock-content {
+    text-align: left;
+}
+
+.textblock-content img {
+    max-width: 100%;
+}
+
+.textblock-content p {
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin-top: 20px; 
+    font-size: 14px; 
+}
+
+/* Dit hier onder is alleen voor Media */
+
+.MediaFotoBlok {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.MediaFotoBlok img {
+    width: 600px;
+    height: 450px;
+    object-fit: cover;
+    border: #008ead solid 10px;
+    border-radius: 20%;
+    margin-bottom: 20px;
+}
+ </style>
+</head>
+
+<header class="HeaderMain">
+    <div class="header-content">
+        <div class="logo-and-title">
+            <div class="Logo-Header">
+                <a href=".\test\totaal.php">
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="https://www.lodewijkcollege.nl/media/cache/standard_crop/dbfotos/siteimage/simg_image_058ffb75694b809fd7f7d6fcc33cbd142a3923f7.png">
+                        <img src="https://www.lodewijkcollege.nl/media/cache/standard_crop/dbfotos/siteimage/simg_image_6f28fca14ee543c96441338a5c963a58f92a3f24.png" alt="Lodewijk college Terneuzen logo" class="logo__image">
+                    </picture>
+                </a>
+            </div>
+            <h1>Lodewijk College Sterrenjacht</h1>
+        </div>
+
+        <nav class="header-links">
+            <ul class="navlist">
+                <li><a href="/Sterrenjacht/test/totaal.php">HOME</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+        <div class="BasisTekstBlokA">
+        <h3>AMBITIEUZE EN MODERNE SCHOOL</h3>
+        <p>Het Lodewijk College is een ambitieuze en moderne school voor vmbo, havo, atheneum, gymnasium en tweetalig havo, atheneum en gymnasium in Terneuzen. We hebben twee locaties: Zeldenrustlaan en Oude Vaart. Op het Lodewijk College word je op je eigen niveau gestimuleerd je talenten te ontdekken.</p>
+
+        </div>
+        <div class="BasisTekstBlokA">
+            <h3>STERRENJACHT INFO</h3>
+            <p>Op 1 maart 2024 organiseert het Lodewijk College in het Scheldetheater een avondvullend programma, waarbij onze leerlingen hun talenten kunnen laten zien.
+De talenten van onze school willen we op die avond in alle facetten terug laten komen.
+Ook hebben we een e-mailadres waar leerlingen zich al kunnen opgeven: talent@lodewijkcollege.nl</p>
+        </div>
+    </div>
+ </main>
+<a class="backtothefuture" href="/Sterrenjacht/nummer.php" alt="kies een nummer"> Bestel hier je TICKETS ! ! !</a>
+<br> <br>
+<h2>Vul je leerlingnummer/docentcode en het aantal gewenste kaarten in</h2>
+<p><span class="error">* required field</span></p>
+<form method="post" action="<?php echo htmlspecialchars("verwerkkaartenbesteld.php");?>" >  
+	Nummer: <input type="text" name="nummer"><br>
+	aantal kaarten (max. 4): <input type="text" name="aantal"><br>
+	
+	<span class="error">* <?php echo $nummerErr;?></span>
+	<br><br>
+  <br><br>
+  <input type="submit" name="submit" value="Submit">  
+</form>
+<footer>
+  <a class="backtothefuture" href="/Sterrenjacht/test/totaal.php" alt="kies een nummer">Terug</a>
+    <div class="footertextblock">                             
+        <div class="textblock-container">
+                                    <article class="textblock-item">
+                                                                <div class="textblock-content"><p><img alt="150_logo_big_white.png" class="normal img-responsive" height="120" src="https://www.lodewijkcollege.nl/dbupload/_stb14_150_logo_big_white.png" width="120">
+  <br><a href="mailto:info@lodewijkcollege.nl">Email: info@lodewijkcollege.nl</a></div>
+                                </article>
+                            </div>
+  </div>
+  
+    </div>
+      <p>&copy; 2022 Lodewijk College. All rights reserved.</p>
+   </footer>
+</body>
+</html>
