@@ -20,6 +20,11 @@
 .foot{
   text-align: center;
   bottom: 0px;
+  margin: 5px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e6e6e6;
+  border-top: solid #9999ff 2px;
 }
 .on{
     background-color:#b3b3ff;
