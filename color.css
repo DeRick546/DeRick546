@@ -9,6 +9,13 @@
 .centerum{
     text-align: center;
 }
+body{
+  min-height: 800px;
+  position: relative;
+  max-height: 1200px;
+  font-size: medium;
+  font-family: Arial;
+}
 .fronpicture{
     border-width: 3px;
     border-style: solid;
@@ -19,12 +26,14 @@
 }
 .foot{
   text-align: center;
-  bottom: 0px;
-  margin: 5px;
+  position: absolute;
+  bottom: -150px;
+  margin: 0px;
   padding: 0;
   overflow: hidden;
   background-color: #e6e6e6;
   border-top: solid #9999ff 2px;
+  width: 100%;
 }
 .on{
     background-color:#b3b3ff;
@@ -59,9 +68,10 @@
     padding: 0;
     overflow: hidden;
     background-color: #ccccff;
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1000;
   }
   
   .nav_word {
@@ -80,14 +90,19 @@
     background-color: #9999ff;
   }
   table {
-    border-collapse: collapse;
     width: 100%;
+    border: 3px solid #0000009d;
+    font-weight: bold;
   }
   
   td, th {
-    border: 3px solid #0000009d;
+    border: 2px solid #0000009d;
     text-align: left;
-    padding: 8px;
+  
+  }
+  td:hover {background-color: #3385ff;
+  }
+  th:hover {background-color: #3385ff;
   }
   .NBSA{
     text-align: center;
