@@ -47,6 +47,9 @@ body{
   height: 72Px;
   width: auto;
   
+hr.lijn{
+  border: 5px solid darkblue;
+}
 }
 #blog .row div{
   padding: 0;
@@ -60,6 +63,9 @@ body{
   top: 0; 
   right: 0; 
   margin: 5px; 
+}
+.jumbotron {
+  border-bottom: solid #9999ff 2px;
 }
 
 .nav {
