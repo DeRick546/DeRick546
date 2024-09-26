@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Converter</title>
+  <link rel="stylesheet" type="text/css" href="assets/color.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="fotos/sword.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="assets/converter.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="assets/hexadecimaalConverter.js"></script>
+</head>
+
+<body>
+  <div class="jumbotron text-center">
+    <h1>Hexadecimal en Binary Converter</h1>
+    <nav>
+        <ul class="nav">
+            <li class="nav_word"><a href="index.html">Home</a></li>
+            <li class="nav_word"><a href="profiel.html">Profiel</a></li>
+            <li class="nav_word"><a href="dashboard.html">Dashboard</a></li>
+            <li class="nav_word"><a href="blog.html" >Blog</a></li>
+            <li class="nav_word"><a href="FAQ.html">FAQ</a></li>
+            <li class="nav_word"><a href="converter.html" class="on">Converter</a></li>
+          <a href="https://hz.nl/" target="_blank"><img src="../fotos/hz_logo.png" alt="hz_logo " class="hz_logo"></a>
+        </ul>
+      </nav>
+    </div>
+    <div>
+      <label for="decimalInput">Decimal:</label>
+      <input type="text" id="decimalInput" placeholder="Enter Decimal">
+      <input type="button" value="Convert" onclick="convertDecimal()">
+  </div>
+
+  <div>
+      <label for="hexInput">Hexadecimal:</label>
+      <input type="text" id="hexInput" placeholder="Enter Hexadecimal">
+      <input type="button" value="Convert" onclick="convertHex()">
+  </div>
+
+  <div>
+      <label for="binaryInput">Binary:</label>
+      <input type="text" id="binaryInput" placeholder="Enter Binary">
+      <input type="button" value="Convert" onclick="convertBinary()">
+  </div>
+
+  <h3>Results</h3>
+  <p id="results"></p>
+</body>
+<footer class="foot">
+  <p>Auteur: Rick de Cuijper<br>contact info<br><i class="fa fa-caret-down"></i></p>
+  <a href="mailto:cuij003@hz.nl">cuij003@hz.nl</a><br>
+  <a href="https://github.com/DeRick546/DeRick546" target="blank">Mijn github account</a><br>
+  <a href="https://derick546.github.io/DeRick546/profiel.html" target="_blank">Mijn github online</a>
+</footer>
+
+</html>
