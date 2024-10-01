@@ -34,6 +34,8 @@ body{
   background-color: #e6e6e6;
   border-top: solid #9999ff 2px;
   width: 100%;
+  float: left;
+
 }
 .on{
     background-color:#b3b3ff;
@@ -47,9 +49,6 @@ body{
   height: 72Px;
   width: auto;
   
-hr.lijn{
-  border: 5px solid darkblue;
-}
 }
 #blog .row div{
   padding: 0;
