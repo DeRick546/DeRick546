@@ -20,7 +20,7 @@
     <h1>Werkveld</h1>
     <nav>
       <ul class="nav">
-        <li class="nav_word"><a href="../blog.html" class="on">Terug naar blog</a></li>
+        <li class="nav_word"><a href="../blog.php" class="on">Terug naar blog</a></li>
         <a href="https://hz.nl/" target="_blank"><img src="../fotos/hz_logo.png" alt="hz_logo " class="hz_logo"></a>
       </ul>
     </nav>
@@ -68,7 +68,7 @@
   <a href="https://hz.nl/" target="blank">hz</a> |
   <a href="https://learn.hz.nl/my/" target="blank">hz-learn</a> |
   <a href="https://github.com/DeRick546/DeRick546" target="blank">Mijn github account</a> |
-  <a href="https://derick546.github.io/DeRick546/profiel.html" target="_blank">Mijn github online</a><br>
+  <a href="https://derick546.github.io/DeRick546/profiel.php" target="_blank">Mijn github online</a><br>
   <p> </p><br>
 </footer>
 </html>

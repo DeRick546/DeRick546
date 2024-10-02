@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-  <title>SWOT</title>
+  <title>Programmeer ervaring</title>
   <link rel="stylesheet" type="text/css" href="../assets/color.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" href="../fotos/sword.png" type="image/x-icon">
@@ -17,27 +17,31 @@
 
 <body>
   <div class="jumbotron text-center">
-    <h2>Mijn persoonlijke SWOT analyse</h2>
+    <h1>Programmeer ervaring</h1>
     <nav>
         <ul class="nav">
-          <li class="nav_word"><a href="../blog.html" class="on">Terug naar blog</a></li>
+          <li class="nav_word"><a href="../blog.php" class="on">Terug naar blog</a></li>
           <a href="https://hz.nl/" target="_blank"><img src="../fotos/hz_logo.png" alt="hz_logo " class="hz_logo"></a>
         </ul>
       </nav>
     </div>
-    <h2 class="text-center">Mijn persoonlijke SWOT analyse: mijn sterke en zwakke punten</h2>
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
-        </div>
-        <div class="col-sm-4">
-          <p>Ik heb ADD en dit zorgt ervoor dat ik snel afgelijd kan raken maar, het kan er ook voor zorgen dat ik in een
-            soort flow ga waardoor ik juist goed kan doorwerken aan dingen zoals projecten.<br>Een van mijn andere zwakke punten is mijn luiheid maar, dit is een goed ding omdat je de moeilijkste taak aan de luiste persoon geen omdat die de makkelijkste oplossing vind. Dat is de rede waar luiheid een sterke en een zwakte kan zijn.</p>
-          <p>Ik zie goeie kansen om mezelf te beteren op de hz en het enige risico dat ik zie ik dat ik teveel dingen ga
-            uitstellen en daarvoor moet ik oppassen.</p>
-        </div>
-      </div>
-    </div>
+          </div>
+              <div class="col-sm-4">
+                <h2>Mijn Programmeer ervaring</h2>
+                <p>Hieronder staat een lijst met mijn eerdere projecten alleen het zijn geen pareltjes dus bereid je voor.</p>
+                <ul>
+                  <li><a href="../oud_werk/bestelform.php" target="_blank">Format bestandje</a></li>
+                  <li><a href="../oud_werk/nummer.php" target="_blank">Invul format</a></li>
+                  <li><a href="../oud_werk/sterrenjacht.php" target="_blank">Sterrenjacht</a></li>
+                  <li><a href="../oud_werk/weerstation_versie2_deel2.php" target="_blank">weerstation</a></li>
+                  <li><a href="../oud_werk/weerstation_versie2.php" target="_blank">weerstation versie 2</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
 </body>
 <footer class="foot">
   <p>Auteur: Rick de Cuijper<br>contact info<br><svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -48,7 +52,7 @@
   <a href="https://hz.nl/" target="blank">hz</a> |
   <a href="https://learn.hz.nl/my/" target="blank">hz-learn</a> |
   <a href="https://github.com/DeRick546/DeRick546" target="blank">Mijn github account</a> |
-  <a href="https://derick546.github.io/DeRick546/profiel.html" target="_blank">Mijn github online</a><br>
+  <a href="https://derick546.github.io/DeRick546/profiel.php" target="_blank">Mijn github online</a><br>
   <p> </p><br>
 </footer>
 </html>
