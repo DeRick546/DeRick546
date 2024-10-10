@@ -1,4 +1,3 @@
-/*css_stylesheet*/
 .elden{
     border-width: 6px;
     border-style: double;
@@ -35,7 +34,6 @@ body{
   border-top: solid #9999ff 2px;
   width: 100%;
   float: left;
-
 }
 .on{
     background-color:#b3b3ff;
@@ -48,7 +46,6 @@ body{
 .vraag{
   height: 72Px;
   width: auto;
-  
 }
 #blog .row div{
   padding: 0;
@@ -66,7 +63,6 @@ body{
 .jumbotron {
   border-bottom: solid #9999ff 2px;
 }
-
 .nav {
     list-style-type: none;
     margin: 0;
@@ -78,11 +74,9 @@ body{
     width: 100%;
     z-index: 1000;
   }
-  
   .nav_word {
     float: left;
   }
-  
   .nav_word a {
     display: block;
     color: rgb(0, 0, 0);
@@ -90,7 +84,6 @@ body{
     padding: 14px 16px;
     text-decoration: none;
   }
-  
   .nav_word a:hover:not(.active) {
     background-color: #9999ff;
   }
@@ -99,11 +92,9 @@ body{
     border: 3px solid #0000009d;
     font-weight: bold;
   }
-  
   td, th {
     border: 2px solid #0000009d;
     text-align: left;
-  
   }
   td:hover {background-color: #3385ff;
   }
@@ -116,14 +107,18 @@ body{
     border-right: 3px solid rgba(255, 15, 15, 0.747);
     margin: 0 auto;
     width: fit-content;
-
   }
   details{
     cursor: pointer;
   }
-  .fa-caret-down{
-    margin-left: 4px;
-  }
+ .aantalEC{
+  text-align: center;
+ }
+
+
+
+
+
   /*new code
   ul li div .dropdown:hover:not(.active) {
     float: left;
