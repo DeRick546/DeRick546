@@ -24,10 +24,18 @@
       const input = document.getElementById('integerInput').value;
       const message = document.getElementById('message');
       message.textContent = `Cijfer is: ${input}`;
+      //link to progress bar and ECS
+      if (input >= 5.5) {
+        console.log("wollah");
+      } else {
+        console.log("NOTwollah");
+      }
+      
       deleteElement('integerInput')
       deleteElement('labelCijfer')
       deleteElement('buttonClick')
     }
+
   </script>
 </body>
 

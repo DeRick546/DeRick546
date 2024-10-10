@@ -11,6 +11,7 @@
             flex-direction: column;
             align-items: center;
             margin-top: 50px;
+           
         }
 
         .progress-container {
@@ -20,6 +21,7 @@
             border-radius: 5px;
             overflow: hidden;
             position: relative;
+            
         }
 
         .progress-bar {
@@ -36,12 +38,14 @@
             top: 50%;
             transform: translate(-50%, -50%);
             color: rgb(255, 255, 255);
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         }
 
         button {
             margin-top: 20px;
             padding: 10px 15px;
             font-size: 16px;
+            
         }
     </style>
 </head>
@@ -53,22 +57,32 @@
             <span id="percentage-label" class="percentage-label">0</span>
         </div>
     </div>
-    <button id="increment-button">+ 1 EC</button>
+    <button id="increment-button1">+ 1 EC</button>
+    <button id="increment-button25">+ .25 EC</button>
+    
 
     <script>
         const progressBar = document.getElementById('progress-bar');
-        const incrementButton = document.getElementById('increment-button');
+        const incrementButton1 = document.getElementById('increment-button1');
+        const incrementButton25 = document.getElementById('increment-button25');
         const percentageLabel = document.getElementById('percentage-label');
 
         let currentProgress = 0;
         const maxProgress = 60;
         // add 1 to bar = link 
-        incrementButton.addEventListener('click', () => {
+        incrementButton1.addEventListener('click', () => {
             if (currentProgress < maxProgress) {
                 currentProgress++;
                 updateProgressBar();
             }
         });
+        incrementButton25.addEventListener('click', () => {
+            if (currentProgress < maxProgress) {
+                currentProgress = currentProgress + 0.25;
+                updateProgressBar();
+            }
+        });
+
 
         function updateProgressBar() {
             const progressPercentage = (currentProgress / maxProgress) * 100;
