@@ -5,6 +5,7 @@
 <head>
     <title>Dashboard</title>
     <link rel="stylesheet" type="text/css" href="assets/color.css">
+    <link rel="stylesheet" type="text/css" href="assets/cssForDashboard.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="fotos/sword.png" type="image/x-icon">
     <meta charset="UTF-8">
@@ -51,20 +52,32 @@
             <td rowspan="3" class="text-center">1</td>
             <td>Program- &amp; Career Orientation (PCO)</td>
             <td>Presentatie</td>
-            <td class="text-center">n/a</td>
-            <td class="aantalEC">2.5 EC</td>
+            <td class="inputCijfer">
+                <label for="cijfer" id="labelCijfer">Cijfer:</label>
+                <input type="text" id="integerInput" placeholder="enter behaalde cijfer">
+                <button type="submit" onclick="validateInput()" id="buttonClick">save</button>
+                <p id="message"></p></td>
+            <td class="aantalEC2.5"><div class="ECstring">2.5 EC</div></td>
         </tr>
         <tr>
             <td>Computer Science Basics (CSB)</td>
             <td>Tentamen</td>
-            <td class="text-center">n/a</td>
-            <td class="aantalEC">5 EC</td>
+            <td class="inputCijfer">
+                <label for="cijfer" id="labelCijfer">Cijfer:</label>
+                <input type="text" id="integerInput" placeholder="enter behaalde cijfer">
+                <button type="submit" onclick="validateInput()" id="buttonClick">save</button>
+                <p id="message"></p></td>
+            <td class="aantalEC5"><div class="ECstring">5 EC</div></td>
         </tr>
         <tr>
             <td>Programming Basics (PBA)</td>
             <td>casus examen</td>
-            <td class="text-center">n/a</td>
-            <td class="aantalEC">5 EC</td>
+            <td class="inputCijfer">
+                <label for="cijfer" id="labelCijfer">Cijfer:</label>
+                <input type="text" id="integerInput" placeholder="enter behaalde cijfer">
+                <button type="submit" onclick="validateInput()" id="buttonClick">save</button>
+                <p id="message"></p></td>
+            <td class="aantalEC5"><div class="ECstring">5 EC</div></td>
         </tr>
 
         <tr>
@@ -73,31 +86,51 @@
         <tr>
             <td>Personal Professional Development: Exploration (PPD-E)</td>
             <td>Criterium gericht interview</td>
-            <td class="text-center">n/a</td>
-            <td class="aantalEC">12.5 EC</td>
+            <td class="inputCijfer">
+                <label for="cijfer" id="labelCijfer">Cijfer:</label>
+                <input type="text" id="integerInput" placeholder="enter behaalde cijfer">
+                <button type="submit" onclick="validateInput()" id="buttonClick">save</button>
+                <p id="message"></p></td>
+            <td class="aantalEC1.25"><div class="ECstring">1.25 EC</div></td>
         </tr>
         <tr>
             <td>IT Personality Projectweek 1</td>
             <td>Portfolio</td>
-            <td class="text-center">n/a</td>
-            <td class="aantalEC">1.25 EC</td>
+            <td class="inputCijfer">
+                <label for="cijfer" id="labelCijfer">Cijfer:</label>
+                <input type="text" id="integerInput" placeholder="enter behaalde cijfer">
+                <button type="submit" onclick="validateInput()" id="buttonClick">save</button>
+                <p id="message"></p></td>
+            <td class="aantalEC1.25"><div class="ECstring">1.25 EC</div></td>
         </tr>
         <tr>
             <td>IT Personality 1</td>
             <td>Portfolio</td>
-            <td class="text-center">n/a</td>
-            <td class="aantalEC">1.25 EC</td>
+            <td class="inputCijfer">
+                <label for="cijfer" id="labelCijfer">Cijfer:</label>
+                <input type="text" id="integerInput" placeholder="enter behaalde cijfer">
+                <button type="submit" onclick="validateInput()" id="buttonClick">save</button>
+                <p id="message"></p></td>>
+            <td class="aantalEC1.25"><div class="ECstring">1.25 EC</div></td>
         </tr>
         <tr>
             <td rowspan="2">Object-Oriented Programming (OOP)</td>
             <td>Presentatie (per groepje)</td>
-            <td class="text-center">n/a</td>
-            <td class="aantalEC">5 EC</td>
+            <td class="inputCijfer">
+                <label for="cijfer" id="labelCijfer">Cijfer:</label>
+                <input type="text" id="integerInput" placeholder="enter behaalde cijfer">
+                <button type="submit" onclick="validateInput()" id="buttonClick">save</button>
+                <p id="message"></p></td>
+            <td class="aantalEC5"><div class="ECstring">5 EC</div></td>
         </tr>
         <tr>
             <td>Tentamen</td>
-            <td class="text-center">n/a</td>
-            <td class="aantalEC">5 EC</td>
+            <td class="inputCijfer">
+                <label for="cijfer" id="labelCijfer">Cijfer:</label>
+                <input type="text" id="integerInput" placeholder="enter behaalde cijfer">
+                <button type="submit" onclick="validateInput()" id="buttonClick">save</button>
+                <p id="message"></p></td>
+            <td class="aantalEC5"><div class="ECstring">5 EC</div></td>
         </tr>
         <tr>
             <td rowspan="5" class="text-center">3</td>
@@ -105,23 +138,39 @@
         <tr>
             <td rowspan="4">Framework Project 1 </td>
             <td>Tentamen</td>
-            <td class="text-center">n/a</td>
-            <td class="aantalEC">4 EC</td>
+            <td class="inputCijfer">
+                <label for="cijfer" id="labelCijfer">Cijfer:</label>
+                <input type="text" id="integerInput" placeholder="enter behaalde cijfer">
+                <button type="submit" onclick="validateInput()" id="buttonClick">save</button>
+                <p id="message"></p></td>
+            <td class="aantalEC4"><div class="ECstring">4 EC</div></td>
         </tr>
         <tr>
             <td>Tentamen</td>
-            <td class="text-center">n/a</td>
-            <td class="aantalEC">1 EC</td>
+            <td class="inputCijfer">
+                <label for="cijfer" id="labelCijfer">Cijfer:</label>
+                <input type="text" id="integerInput" placeholder="enter behaalde cijfer">
+                <button type="submit" onclick="validateInput()" id="buttonClick">save</button>
+                <p id="message"></p></td>
+            <td class="aantalEC1"><div class="ECstring">1 EC</div></td>
         </tr>
         <tr>
             <td>Presentatie (per groepje)</td>
-            <td class="text-center">n/a</td>
-            <td class="aantalEC">2.5 EC</td>
+            <td class="inputCijfer">
+                <label for="cijfer" id="labelCijfer">Cijfer:</label>
+                <input type="text" id="integerInput" placeholder="enter behaalde cijfer">
+                <button type="submit" onclick="validateInput()" id="buttonClick">save</button>
+                <p id="message"></p></td>
+            <td class="aantalEC2.5"><div class="ECstring">2.5 EC</div></td>
         </tr>
         <tr>
             <td>Portfolio</td>
-            <td class="text-center">n/a</td>
-            <td class="aantalEC">2.5 EC</td>
+            <td class="inputCijfer">
+                <label for="cijfer" id="labelCijfer">Cijfer:</label>
+                <input type="text" id="integerInput" placeholder="enter behaalde cijfer">
+                <button type="submit" onclick="validateInput()" id="buttonClick">save</button>
+                <p id="message"></p></td>
+            <td class="aantalEC2.5"><div class="ECstring">2.5 EC</div></td>
         </tr>
         <tr>
             <td rowspan="6" class="text-center">4</td>
@@ -129,30 +178,50 @@
         <tr>
             <td rowspan="3">Framework Project 2 </td>
             <td>Laatste inlevering per groepje</td>
-            <td class="text-center">n/a</td>
-            <td class="aantalEC">2.5 EC</td>
+            <td class="inputCijfer">
+                <label for="cijfer" id="labelCijfer">Cijfer:</label>
+                <input type="text" id="integerInput" placeholder="enter behaalde cijfer">
+                <button type="submit" onclick="validateInput()" id="buttonClick">save</button>
+                <p id="message"></p></td>
+            <td class="aantalEC2.5"><div class="ECstring">2.5 EC</div></td>
         </tr>
         <tr>
             <td>Individueel Project onderzoek</td>
-            <td class="text-center">n/a</td>
-            <td class="aantalEC">2.5 EC</td>
+            <td class="inputCijfer">
+                <label for="cijfer" id="labelCijfer">Cijfer:</label>
+                <input type="text" id="integerInput" placeholder="enter behaalde cijfer">
+                <button type="submit" onclick="validateInput()" id="buttonClick">save</button>
+                <p id="message"></p></td>
+            <td class="aantalEC2.5"><div class="ECstring">2.5 EC</div></td>
         </tr>
         <tr>
             <td>IT Development portfolio </td>
-            <td class="text-center">n/a</td>
-            <td class="aantalEC">5 EC</td>
+            <td class="inputCijfer">
+                <label for="cijfer" id="labelCijfer">Cijfer:</label>
+                <input type="text" id="integerInput" placeholder="enter behaalde cijfer">
+                <button type="submit" onclick="validateInput()" id="buttonClick">save</button>
+                <p id="message"></p></td>
+            <td class="aantalEC5"><div class="ECstring">5 EC</div></td>
         </tr>
         <tr>
             <td>IT Personality International Week </td>
             <td>Portfolio</td>
-            <td class="text-center">n/a</td>
-            <td class="aantalEC">1.25 EC</td>
+            <td class="inputCijfer">
+                <label for="cijfer" id="labelCijfer">Cijfer:</label>
+                <input type="text" id="integerInput" placeholder="enter behaalde cijfer">
+                <button type="submit" onclick="validateInput()" id="buttonClick">save</button>
+                <p id="message"></p></td>
+            <td class="aantalEC1.25"><div class="ECstring">1.25 EC</div></td>
         </tr>
         <tr>
             <td>IT Personality 2</td>
             <td>Portfolio</td>
-            <td class="text-center">n/a</td>
-            <td class="aantalEC">1.25 EC</td>
+            <td class="inputCijfer">
+                <label for="cijfer" id="labelCijfer">Cijfer:</label>
+                <input type="text" id="integerInput" placeholder="enter behaalde cijfer">
+                <button type="submit" onclick="validateInput()" id="buttonClick">save</button>
+                <p id="message"></p></td>
+            <td class="aantalEC1.25"><div class="ECstring">1.25 EC</div></td>
         </tr>
         <tr>
             <th colspan="5">
@@ -160,6 +229,14 @@
             </th>
         </tr>
     </table>
+    <div class="progress-container">
+        <div id="progress-bar" class="progress-bar">
+            <span id="percentage-label" class="percentage-label">0</span>
+        </div>
+    </div>
+    <button id="increment-button1">+ 1 EC</button>
+    <button id="increment-button25">+ .25 EC</button>
+    
 
 </body>
 <footer class="foot">

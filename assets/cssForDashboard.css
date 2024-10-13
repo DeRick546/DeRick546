@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.progress-container {
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: 30px;
+  border: 2px solid darkblue;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background-color: blue;
+  transition: width 0.3s;
+  position: relative;
+}
+
+.percentage-label {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.inputCijfer{
+  text-align: center;
+  height: fit-content;
+}
+.buttonClick{
+  height: fit-content;
+  width: auto;
+}

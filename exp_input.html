@@ -4,17 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>money</title>
-  <style>
-
-  </style>
 </head>
 
 <body>
-  <label for="cijfer" id="labelCijfer">Cijfer:</label>
+  <label id="labelCijfer">Cijfer:</label>
   <input type="text" id="integerInput" placeholder="enter behaalde cijfer">
   <button type="submit" onclick="validateInput()" id="buttonClick">save</button>
-  <p id="message"></p>
+  <div id="message"></div>
 
   <script>
     function deleteElement(DeleteId) {
@@ -23,11 +19,13 @@
     function validateInput() {
       const input = document.getElementById('integerInput').value;
       const message = document.getElementById('message');
-      message.textContent = `Cijfer is: ${input}`;
+      
       //link to progress bar and ECS
       if (input >= 5.5) {
+       message.textContent = `Cijfer is: ${input}`;
         console.log("wollah");
       } else {
+        message.textContent = `Het cijfer is onder 5,5 dus moet je de "resit" nemen om je cijfer te herkansen.`;
         console.log("NOTwollah");
       }
       
