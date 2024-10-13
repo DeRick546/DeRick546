@@ -45,7 +45,7 @@ function validateInput(int) {
     ,document.getElementById('message15'),document.getElementById('message16'),]
 
   if (int == 0){
-    console.log("werkt if1t")
+   
     //addIntToPRB()
     if (input >= 5.5) {
       document.getElementById('message0').innerHTML = `Het Cijfer is: ${input}`;
