@@ -9,18 +9,18 @@ const percentageLabel = document.getElementById('percentage-label');
 let currentProgress = 0;
 const maxProgress = 60;
 // add 1 to bar = link 
-incrementButton1.addEventListener('click', () => {
+incrementButton1.addEventListener('click',updateProgressBar){
   if (currentProgress < maxProgress) {
     currentProgress++;
     updateProgressBar();
   }
-});
-incrementButton25.addEventListener('click', () => {
+};
+incrementButton25.addEventListener('click', updateProgressBar){
   if (currentProgress < maxProgress) {
     currentProgress = currentProgress + 0.25;
     updateProgressBar();
   }
-});
+};
 
 
 function updateProgressBar() {

@@ -96,10 +96,9 @@ body{
     border: 2px solid #0000009d;
     text-align: left;
   }
-  td:hover {background-color: #3385ff;
+  td:hover,th:hover {background-color: #3385ff;
   }
-  th:hover {background-color: #3385ff;
-  }
+  
   .NBSA{
     text-align: center;
     border: 2px solid rgba(255, 15, 15, 0.747);
@@ -114,7 +113,9 @@ body{
  .ECstring{
   text-align: center;
  }
-
+ a:active{
+  background-color: lightgrey;
+}
 
 
 

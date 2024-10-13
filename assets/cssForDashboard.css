@@ -36,7 +36,13 @@ body {
   text-align: center;
   height: fit-content;
 }
-.buttonClick{
-  height: fit-content;
+#buttonClick{
+  border: 2px solid darkblue;
+  height: auto;
   width: auto;
+  border-radius: 5px;
 }
+#buttonClick:hover {
+  background-color: rgba(173, 173, 173, 0.916)
+
+};
