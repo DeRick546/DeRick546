@@ -12,9 +12,7 @@
     <link rel="stylesheet" type="text/css" href="assets/cssForDashboard.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="fotos/sword.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">--
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="assets/jsForDashboard.js"></script>
 </head>
 
@@ -115,7 +113,7 @@
                 <p id="message3"></p>
             </td>
             <td class="aantalEC1.25">
-                <div class="ECstring">1.25 EC</div>
+                <div class="ECstring">12.25 EC</div>
             </td>
         </tr>
         <tr>
@@ -149,7 +147,7 @@
                             d="M5 11.917 9.724 16.5 19 7.5" />
                     </svg></button>
                 <p id="message5"></p>
-            </td>>
+            </td>
             <td class="aantalEC1.25">
                 <div class="ECstring">1.25 EC</div>
             </td>
@@ -214,7 +212,7 @@
             <td>Tentamen</td>
             <td class="inputCijfer">
                 <label for="cijfer" id="labelCijfer9">Cijfer:</label>
-                <input type="text" id="integerInput9" placeholder="enter behaalde cijfer9">
+                <input type="text" id="integerInput9" placeholder="enter behaalde cijfer">
                 <button type="submit" onclick="validateInput(9)" id="buttonClick9">save<svg
                         class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none" viewBox="0 0 24 24">
@@ -286,7 +284,7 @@
             <td>Individueel Project onderzoek</td>
             <td class="inputCijfer">
                 <label for="cijfer" id="labelCijfer13">Cijfer:</label>
-                <input type="text" id="integerInput13" placeholder="enter behaalde cijfer13">
+                <input type="text" id="integerInput13" placeholder="enter behaalde cijfer">
                 <button type="submit" onclick="validateInput(13)" id="buttonClick13">save<svg
                         class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none" viewBox="0 0 24 24">
@@ -360,8 +358,8 @@
         </tr>
     </table>
     <div class="progress-container">
-        <div id="progress-bar" class="progress-bar">
-            <span id="percentage-label" class="percentage-label">0</span>
+        <div id="progress-bar-dashboard" class="progress-bar-dashboard">
+            <div id="percentage-label" class="percentage-label"></div>
         </div>
     </div>
 </body>

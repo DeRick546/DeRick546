@@ -16,14 +16,14 @@ body {
   
 }
 
-.progress-bar {
+.progress-bar-dashboard {
   height: 100%;
   width: 0%;
-  background-color: blue;
+  /*background-color:#00ffcc;*/
+  background-color:#8000ff;
   transition: width 0.3s;
-  position: relative;
+  position: absolute;
 }
-
 .percentage-label {
   position: absolute;
   left: 50%;

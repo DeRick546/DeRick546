@@ -18,7 +18,7 @@ body{
 .fronpicture{
     border-width: 3px;
     border-style: solid;
-    border-color: #3385ff;
+    border-color: blueviolet;
     position: absolute;
     right: 0;
     top: 1;
@@ -96,7 +96,7 @@ body{
     border: 2px solid #0000009d;
     text-align: left;
   }
-  td:hover,th:hover {background-color: #3385ff;
+  td:hover,th:hover {background-color: #0864ed;
   }
   
   .NBSA{
