@@ -1,4 +1,3 @@
-console.log("java works")
 // Convert Decimal to Binary and Hexadecimal
 function convertDecimal() {
     let decimalValue = document.getElementById('decimalInput').value;
