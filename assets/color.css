@@ -1,9 +1,37 @@
 .elden{
-    border-width: 6px;
-    border-style: double;
-    height: 150px;
-    width: auto;
+    display: block;
+    border-width: 4px;
+    border-style: solid;
+    height: 150%;
+    width: 150%;
     margin: 2px;
+}
+* {box-sizing: border-box}
+
+.eldenBox {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 150%;
+  height: 40%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+  margin: 2px;
+}
+.eldenBox:hover .overlay {
+  opacity: 1;
 }
 .centerum{
     text-align: center;
@@ -16,12 +44,12 @@ body{
   font-family: Arial;
 }
 .fronpicture{
-    border-width: 3px;
-    border-style: solid;
-    border-color: blueviolet;
+    outline-color: blueviolet;
+    outline-style: outset;
     position: absolute;
     right: 0;
     top: 1;
+    margin-right: 2px;
 }
 .foot{
   text-align: center;
@@ -39,13 +67,31 @@ body{
     background-color:#b3b3ff;
 }
 .blokje{
-    border: 2px solid darkblue;
-    margin: 0 auto;
-    width: 100%;
+    border: 3px solid blue;
+    margin-bottom:  5px;
+    margin-right: 5px!important;
+    background-color: #dbdbff3e;
 }
 .vraag{
-  height: 72Px;
+  height: 72px;
   width: auto;
+}
+.bladeChaos{
+  position: relative;
+  top: 86px;
+  left: 0;
+  width: 330px;
+  rotate: -43deg;
+}
+.bladeChaos2{
+  position: absolute;
+  top: 302px;
+  left: 30px; 
+  /* bottom: 300px; */
+  rotate: 43deg;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  width: 330px;
 }
 #blog .row div{
   padding: 0;
@@ -97,7 +143,7 @@ body{
     border: 2px solid #0000009d;
     text-align: left;
   }
-  td:hover,th:hover {background-color: #0864ed;
+  td:hover,th:hover {background-color: #60baffe5;
   }
   
   .NBSA{
@@ -119,10 +165,10 @@ body{
 }
 .sidebar {
   height: 100%;
-  width: 0;
+  width: 260px;
   position: fixed;
   top: 0;
-  left: 0;
+  left: -260px;
   background-color: darkgray;
   overflow-x: hidden;
   transition: 0.5s;
@@ -135,7 +181,6 @@ body{
   font-size: 24px;
   color: #000000;
   display: block;
-  transition: 0.3s;
   text-decoration: none;
 }
 .sidebar a:hover {
@@ -152,7 +197,7 @@ body{
   padding: 10px 15px;
   text-decoration: none;
   display: block;
-  background-color: aqua;
+  background-color: #89b6fff6;
 }
 .main-content {
   margin-left: 0;
@@ -160,11 +205,51 @@ body{
   padding: 16px;
 }
 .sidebar.open {
-  width: 260px;
+  left: 0;
 }
 .main-content.shift {
   margin-left: 260px;
 }
 a:-webkit-any-link {
   text-decoration: none!important;
+}
+.profielLinkjes{
+  outline-color: #0864ed;
+  outline-style: outset;
+}
+.Header{
+  text-align: center;
+  padding: 10px 15px;
+  background-color: #b3b3ff;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  margin-top: -60px;
+  margin-bottom: 3%;
+}
+.mainheader{
+  text-align: center;
+  padding: 10px 15px;
+  background-color: #b3b3ff;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  margin-top: 20px;
+  margin-bottom: -3%;
+}
+summary{
+  outline-color: #0864ed;
+  outline-style: outset;
+  padding: 10px 15px;
+}
+details{
+  padding: 10px 15px;
+}
+.vraagMeme{
+  position: absolute;
+  outline-color: #33adff;
+  outline-style: outset;
+  outline-width: 4px;
+  right: 140px;
+  top: 210px;
 }

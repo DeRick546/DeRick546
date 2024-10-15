@@ -6,3 +6,35 @@ input[type="text"], input[type="button"] {
 body {
     text-align: center;
 }
+.binairepuzzel{
+    position: absolute;
+    width: 360px;
+    top: 300px;
+    right: 50px;
+    outline-color: darkblue;
+    outline-style: outset;
+  }
+  .purplePallet{
+    position: absolute;
+    height: 440px;
+    top: 325px;
+    left: 70px;
+  }
+  input{
+    padding: 10px 15px;
+    background-color: #eec0fd;
+    outline-color: darkblue;
+    outline-style: outset;
+  }
+  label{
+    font-size: 20px;
+  }
+  #results{
+    display: block;
+    padding: 30px 50px;
+    outline-color: darkorchid;
+    outline-style: outset;
+    font-size: 20px;
+    width: fit-content;
+    margin: auto;
+  }
