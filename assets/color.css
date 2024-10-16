@@ -87,7 +87,6 @@ body{
   position: absolute;
   top: 302px;
   left: 30px; 
-  /* bottom: 300px; */
   rotate: 43deg;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
@@ -146,23 +145,13 @@ body{
   td:hover,th:hover {background-color: #60baffe5;
   }
   
-  .NBSA{
-    text-align: center;
-    border: 2px solid rgba(255, 15, 15, 0.747);
-    border-left: 3px solid rgba(255, 15, 15, 0.747);
-    border-right: 3px solid rgba(255, 15, 15, 0.747);
-    margin: 0 auto;
-    width: fit-content;
-  }
   details{
     cursor: pointer;
   }
  .ECstring{
   text-align: center;
  }
- a:active{
-  background-color: lightgrey;
-}
+
 .sidebar {
   height: 100%;
   width: 260px;
@@ -198,6 +187,9 @@ body{
   text-decoration: none;
   display: block;
   background-color: #89b6fff6;
+  border: darkblue outset 4px;
+  z-index: 10000000;
+  position: relative;
 }
 .main-content {
   margin-left: 0;
@@ -252,4 +244,68 @@ details{
   outline-width: 4px;
   right: 140px;
   top: 210px;
+}
+#ragnarok{
+  width: auto;
+  height: 151px;
+  margin-bottom:  5px;
+  margin-right: 5px!important;
+  display: block;
+  box-sizing: border-box;
+  border: 3px solid blue;
+}
+.Header-ervaring{
+  text-align: center;
+  padding: 10px 15px;
+  background-color: #b3b3ff;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+  margin-top: -60px;
+  margin-bottom: 3%;
+}
+.worden-meme{
+  position: absolute;
+  outline-color: blue;
+  outline-style: outset;
+  outline-width: 4px;
+  right: 150px;
+  top: 390px;
+  width: 300px;
+}
+.Header-swot{
+  text-align: center;
+  padding: 10px 15px;
+  background-color: #b3b3ff;
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+  margin-top: -60px;
+  margin-bottom: 3%;
+}
+.borderSwot{
+  outline-color: blue;
+  outline-style: outset;
+  outline-width: 4px;
+  padding: 10px 10px;
+  position: absolute;
+  top: 20px;
+}
+.memeAdhd{
+  width: 360px;
+  position: absolute;
+  right: 100px;
+  top: 400px;
+  outline-color: blue;
+  outline-style: outset;
+  outline-width: 4px;
+}
+.mindBrowser{
+  width: 340px;
+  outline-color: rgb(111, 0, 215);
+  outline-style: solid;
+  outline-width: 4px;
+  position: absolute;
+  left: 100px;
+  top: 320px;
 }
